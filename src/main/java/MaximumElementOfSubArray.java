@@ -5,9 +5,9 @@ import java.util.LinkedList;
  */
 public class MaximumElementOfSubArray {
     public static void main(String[] args) {
-        int[] a = {9,6,11,8,10,5,14,13,93,14};
+        int[] a = {9, 6, 11, 8, 10, 5, 14, 13, 93, 14};
         int k = 4;
-        printMaximumFromSubArray(a,k);
+        printMaximumFromSubArray(a, k);
     }
 
     static void printMaximumFromSubArray(int[] a, int k) {
